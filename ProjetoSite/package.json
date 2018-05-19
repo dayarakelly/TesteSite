@@ -1,0 +1,15 @@
+{
+    "name": "ProjetoSite",
+    "version": "1.0.0",
+    "keywords": [
+        "util",
+        "functional",
+        "server",
+        "client",
+        "browser"
+    ],
+    "author": "Dayara Kelly",
+    "contributors": [
+    ],
+    "dependencies": {}
+}

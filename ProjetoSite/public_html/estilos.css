@@ -1,0 +1,150 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13/04/2018, 21:47:52
+    Author     : Dayara Kelly
+*/
+
+body {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif, Cookie;
+    background-color: #575757;
+}
+
+
+
+
+#slide {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#slide img{
+    width: 40%;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333333;
+}
+
+
+
+nav ul {
+    list-style: none;
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+}
+
+
+nav ul li {
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a {
+    font-family: Cookie;
+    display: inline-block;
+    font-size: 25px;
+    padding: 10px;
+    width: 70%;
+    text-decoration: none;
+    color: #e27d18;
+
+}
+#divBusca{
+    position: absolute;
+    top: 6%;
+    left:81%;
+    background-color: #404040;
+    border:0%;
+    border-radius:3px;
+    width:200px;
+
+}
+#buscartexto{ 
+    border: none;
+    background-color:transparent;
+    padding-left:5%;  
+    padding-right: -5%; 
+    margin: 2%;
+    font-style:italic;
+    font-size:13px;
+    height:18%;
+    width:18%x;
+}
+
+
+#divBusca img{
+
+    width: 6%;
+    height: 6%;
+}
+
+
+#imagens img{
+    display: inline-block;
+    width: 95%;
+    height: 150%;
+
+}
+
+
+#imagens {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#imagens div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+#imagens {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#imagens h2 {
+    text-align: center;
+    width: 100%;
+}
+
+#imagens div {
+    flex-grow: 1;
+    flex-basis: 150px;
+    padding: 0 10px;
+}
+.botao {
+    font-family: Cookie;
+    color: #f1f1f1;
+    text-decoration: none;
+    padding: 6px 30px;
+    background-color: #e27d18;
+    font-size: 22px;
+    border-radius: 6px;
+
+}
+.botao {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+}
